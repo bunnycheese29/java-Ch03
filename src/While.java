@@ -18,5 +18,6 @@ public class While {
     }
     double avg = sum / i;
     System.out.println("평균은 " + avg + " 입니다.");
+    scanner.close();
   }
 }
